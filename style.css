@@ -1,0 +1,91 @@
+body {
+    font-family: "Rubik", sans-serif;
+    margin: 0;
+    background-color: black;
+    height: 100vh;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    margin: 100px auto;
+    
+}
+
+.product1, .product2 {
+    border-radius: 15px;
+    margin: 10px;
+    height: 434px;
+    width: 350px;  
+}
+
+.product1 {
+   background: white; 
+   position: relative;
+}
+
+.product2 {
+    background: #ffd100;
+    position: relative;
+}
+
+img[src="./images/sale label.png"] {
+ position: absolute;
+ top: -19px;
+ left: -22px;
+ size: 24px;
+}
+
+img[src="./images/basket.svg"] {
+ background-color: black;
+ border-radius: 15% 10%;
+ position: absolute;
+ bottom: 0;
+ padding: 20px;
+
+
+}
+
+#numone, #numtwo {
+    color: #808080;
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+
+.one, .two {
+    text-align: left;
+    color: black;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.8px;
+    padding: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.price1 {
+    color: #808080;
+    font-size: 18px;
+    text-decoration: line-through;
+    font-weight: 900;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
+
+.price2 {
+    color: #941b0c;
+    font-size: 43px;
+    display: flex;
+    font-weight: 900;
+    justify-content: flex-end;
+    position: relative;
+    top: 50px;
+    right: 40px;
+}
